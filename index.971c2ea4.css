@@ -1,0 +1,106 @@
+html, body {
+  background-image: url("sky.7d4b5b11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 100vh;
+  font-family: Poppins, sans-serif;
+}
+
+.App {
+  min-height: 100%;
+  padding-top: 30px;
+}
+
+.widget {
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1px solid #b7dae6;
+  overflow: hidden;
+  box-shadow: 0 1rem 3rem #0000002b;
+}
+
+.current-city {
+  font-size: 16px;
+}
+
+@media (width >= 768px) {
+  .current-city {
+    font-size: 30px;
+  }
+}
+
+.current-date, .current-month {
+  font-size: 14px;
+}
+
+@media (width >= 768px) {
+  .current-date, .current-month {
+    font-size: 20px;
+  }
+}
+
+.currentDescription:first-letter {
+  text-transform: capitalize;
+}
+
+.source-link {
+  text-align: center;
+  color: #fff;
+}
+
+.forecast-day, .forecast-temperatures {
+  font-size: 14px;
+}
+
+@media (width >= 768px) {
+  .forecast-day, .forecast-temperatures {
+    font-size: 16px;
+  }
+}
+
+.forecast-temperatures {
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+.forecastTemperatureMin {
+  color: gray;
+}
+
+.current-temperature {
+  font-size: 30px;
+}
+
+@media (width >= 768px) {
+  .current-temperature {
+    font-size: 40px;
+  }
+}
+
+.celciusLink, .fahrenheitLink {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .celciusLink, .fahrenheitLink {
+    font-size: 20px;
+  }
+}
+
+.current-humidity, .current-wind {
+  font-size: 11px;
+}
+
+@media (width >= 768px) {
+  .current-humidity, .current-wind {
+    font-size: 16px;
+  }
+}
+
+.celciusLink.nonActive, .fahrenheitLink.nonActive {
+  color: #000;
+}
+/*# sourceMappingURL=index.971c2ea4.css.map */

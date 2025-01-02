@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/styles/normalize.css"],"sourcesContent":["a,\np,\nbody,\ndiv,\nheader,\nhtml,\nimg,\nli,\nnav,\nul,\nh1,\nh2,\nbutton {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n"],"names":[],"version":3,"file":"index.f78bd7b2.css.map","sourceRoot":"/__parcel_source_root/"}
