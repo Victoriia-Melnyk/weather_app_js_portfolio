@@ -1,3 +1,99 @@
+html,
 body {
-  margin: 0;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(../images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+}
+
+.App {
+  min-height: 100%;
+  padding-top: 30px;
+}
+
+.widget {
+  text-align: center;
+  background-color: rgb(248, 249, 250);
+  border: 1px solid #b7dae6;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.17);
+  overflow: hidden;
+}
+
+.current-city {
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.current-date,
+.current-month {
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.currentDescription::first-letter {
+  text-transform: capitalize;
+}
+
+.source-link {
+  text-align: center;
+  color: #fff;
+}
+
+.forecast-day,
+.forecast-temperatures {
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.forecastTemperatureMin {
+  color: grey;
+}
+
+.current-temperature {
+  font-size: 30px;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.celciusLink,
+.fahrenheitLink {
+  text-decoration: none;
+  font-size: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.current-humidity,
+.current-wind {
+  font-size: 11px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.celciusLink.nonActive,
+.fahrenheitLink.nonActive {
+  color: black;
 }
